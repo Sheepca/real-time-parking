@@ -15,6 +15,6 @@
 "rentals":[
 {"id":1,"plate":"ABC123","spot":1},
 {"id":2,"plate":"ABC123","spot":1},
-{"id":2,"plate":"ABC123","start_date":"2019-01-01","end_date":"2019-01-02","spot":2}
+{"id":2,"plate":"ABC123","spot":2}
 ]
 }
