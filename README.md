@@ -15,7 +15,7 @@ where you will be displaying spot information (name and address).
 
 After that, inside each **SpotCard** you will have a sub grid called **PlateGrid** where you will be listing all the parked cars returned by **/parked** endpoint. 
 
-Finally, with the **/rentals** endpoint, you will have all the cars that are paying for rental. You will need to display the plates in two different state, valid car (represented as an orange car icon) and violator car (represented as a red car icon).
+Finally, with the **/rentals** endpoint, you will have all the cars that are paying for rental. You will need to display the plates in two different states, valid car (represented as an orange car icon) and violator car (represented as a red car icon).
 
 Here it’s a mock-up of how the product should look:
 ![Selección_333](https://user-images.githubusercontent.com/31289074/171175759-9443f19a-53b4-4f5e-838d-f137b99b1bfb.png)
@@ -61,11 +61,11 @@ Return all the current active rentals for all parking spots, with the following 
 }
 ```
 
-**spot** field correspond to the spot id where there is a paid rental license plate.
+**spot** field corresponds to the spot id where there is a paid rental license plate.
 
 **Parked cars endpoint:** ([https://my-json-server.typicode.com/airgarage/live-rental-api/parked](https://my-json-server.typicode.com/airgarage/live-rental-api/parked))
 
-The data returned for this endpoint, it’s collected with our camera systems. This endpoint returns a list of all cars parked in some of our spots, with the following structure.
+This endpoint returns data collected with our camera systems. It returns a list of all the cars parked in our spots, with the following structure.
 
 ```jsx
 {
