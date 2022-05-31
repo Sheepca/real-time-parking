@@ -18,7 +18,8 @@ After that, inside each **SpotCard** you will have a sub grid called **PlateGrid
 Finally, with the **/rentals** endpoint, you will have all the cars that are paying for rental. You will need to display the plates in two different state, valid car (represented as an orange car icon) and violator car (represented as a red car icon).
 
 Here it’s a mock-up of how the product should look:
-![Selección_333.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/21f7b9fe-dfc4-45aa-b3ab-e3a064a38e47/Seleccin_333.png)
+![Selección_333](https://user-images.githubusercontent.com/31289074/171175759-9443f19a-53b4-4f5e-838d-f137b99b1bfb.png)
+
 ### Setup environment:
 
 1. Clone the repo
@@ -54,9 +55,9 @@ Return all the current active rentals for all parking spots, with the following 
 
 ```jsx
 {
-		id: 1,
-		spot: 1,
-		plate: 'ABC123'
+	id: 1,
+	spot: 1,
+	plate: 'ABC123'
 }
 ```
 
@@ -68,9 +69,9 @@ The data returned for this endpoint, it’s collected with our camera systems. T
 
 ```jsx
 {
-		id: 1,
-		spot: 1,
-		plate: 'ABC123'
+	id: 1,
+	spot: 1,
+	plate: 'ABC123'
 }
 ```
 
