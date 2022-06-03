@@ -1,10 +1,10 @@
 import React from 'react';
 
-import { ImageContainer, Left, Right, SpotCardHeaderContainer, Address, Name, Top } from './styles';
+import { ImageContainer, Left, Right, ParkingLotCardHeaderContainer, Address, Name, Top } from './styles';
 
-const SpotCardHeader = ({ name, address }) => {
+const ParkingLotCardHeader = ({ name, address }) => {
     return (
-        <SpotCardHeaderContainer>
+        <ParkingLotCardHeaderContainer>
             <Top>
                 <Left>
                     <Name>{name}</Name>
@@ -16,8 +16,8 @@ const SpotCardHeader = ({ name, address }) => {
                     </ImageContainer>
                 </Right>
             </Top>
-        </SpotCardHeaderContainer>
+        </ParkingLotCardHeaderContainer>
     );
 };
 
-export default SpotCardHeader;
+export default ParkingLotCardHeader;

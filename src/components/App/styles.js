@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const CardGrid = styled.div`
+export const ParkingLotGrid = styled.div`
     margin: 3rem 5%;
     width: 90%;
     min-height: calc(100vh - 96px); /* 96px = header height (64px) + margin (32px) */

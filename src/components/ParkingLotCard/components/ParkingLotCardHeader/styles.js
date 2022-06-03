@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 import { COLORS } from '../../../../constants';
 
-export const SpotCardHeaderContainer = styled.div`
+export const ParkingLotCardHeaderContainer = styled.div`
     width: 100%;
     height: 30%;
     background-color: ${COLORS.LIGHT_GRAY};

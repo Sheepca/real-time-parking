@@ -2,7 +2,7 @@ import React from 'react';
 
 import Header from '../Header';
 
-import { CardGrid } from './styles.js';
+import { ParkingLotGrid } from './styles.js';
 
 function App() {
 
@@ -10,9 +10,9 @@ function App() {
         <>
             <Header />
 
-            <CardGrid>
+            <ParkingLotGrid>
                 {/* CODE HERE */}
-            </CardGrid>
+            </ParkingLotGrid>
         </>
     );
 }
