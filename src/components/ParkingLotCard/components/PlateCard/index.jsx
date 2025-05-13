@@ -2,6 +2,7 @@ import React from 'react';
 
 import validCar from '../../../../assets/car.svg';
 import violatorCar from '../../../../assets/vcar.svg';
+
 import { Plate, PlateCardContainer, StatusIconContainer } from './styled';
 
 const PlateCard = (props) => {
